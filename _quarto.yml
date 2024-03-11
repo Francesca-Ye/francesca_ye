@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Francesca Ye"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: YeFrancescaResume.pdf
+        text: CV
+    right: 
+      - icon: github
+        href: https://github.com/Francesca-Ye
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francesca-ye/
+    search: true
+    type: "textbox"
+
+  back-to-top-navigation: true
+  page-footer: 
+    left: "Copyright 2024, Francesca Ye" 
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+
+
